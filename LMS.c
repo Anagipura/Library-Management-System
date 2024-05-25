@@ -17,7 +17,7 @@ typedef struct {
 typedef struct {
     int memberId;
     char name[100];
-    char borrowedBooks[MAX_BORROWED][13]; // Array of ISBNs
+    char borrowedBooks[MAX_BORROWED][13]; 
     int borrowedCount;
 } Member;
 
